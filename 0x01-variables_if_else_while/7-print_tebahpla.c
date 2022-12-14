@@ -1,6 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
 
 /**
  * main - main function
@@ -10,13 +8,9 @@ int main(void)
 {
 	char c;
 
-	for (c = 'a' ; c <= 'z' ; c++)
+	for (c = 'z' ; c >= 'a' ; c--)
 	{
-		if ((c == 'q' || c == 'e') != 1)
-		{
-			putchar(c);
-		}
-
+		putchar(c);
 	}
 	putchar('\n');
 	return (0);
