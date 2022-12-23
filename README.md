@@ -22,4 +22,8 @@ int putchar (int character)
 ```
 The character to be printed is fed into the function as an argument, and if the writing is successful, the argument character is returned. 
 
+<<<<<<< HEAD
 Print long int using _putchar requires to have recursion to be add those numbers to string as shown [here](https://www.techcrashcourse.com/2016/02/c-program-to-print-long-variable-using-putchar-only.html). Excercises that used this is > ```5-more_numbers.c```
+=======
+Print long int using _putchar requires to have recursion to be add those numbers to string as shown [here](https://www.techcrashcourse.com/2016/02/c-program-to-print-long-variable-using-putchar-only.html). Excercises that used this is > ```5-more_numbers.c```
+>>>>>>> a35c48ef6414959005b91e23720c5eff6362bd65
