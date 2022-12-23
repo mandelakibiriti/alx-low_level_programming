@@ -11,6 +11,11 @@ Used Betty Linter to check for syntax errors noted indentation resulted in error
 
 - You can find a list of different compilers [here](https://github.com/fffaraz/awesome-cpp)
 
+- Make code executable with gcc on ubuntu
+
+```
+gcc -Wall -pedantic -Werror -Wextra -std=gnu89 main.c c-file.c -o exec_file_name
+```
 
 ## 3. Format Specifiers in C
 Format specifiers define the type of data to be printed on standard output. More info [here](https://www.freecodecamp.org/news/format-specifiers-in-c/)
